@@ -5,6 +5,7 @@
 }
 
 .htco1iFrameHolder {
+    height: 450px;
     overflow: -moz-scrollbars-none;
     -ms-overflow-style: none;
 
