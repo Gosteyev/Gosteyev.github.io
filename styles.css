@@ -10,3 +10,7 @@
     -ms-overflow-style: none;
 
 }
+
+.test::-webkit-scrollbar {
+    visibility: hidden;
+ }
