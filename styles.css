@@ -1,0 +1,11 @@
+.htco1iFrameHolder::-webkit-scrollbar {
+    display: none;
+    visibility: hidden;
+    width: 0 !important;
+}
+
+.htco1iFrameHolder {
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+
+}
