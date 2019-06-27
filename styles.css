@@ -17,8 +17,8 @@
     border: 1px solid blue;
     overflow: auto;
 }
-html, body {
+/* html, body {
     height: 99%;
     border: 1px solid red;
     overflow:hidden;
-}
+} */
