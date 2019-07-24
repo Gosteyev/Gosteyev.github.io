@@ -34,7 +34,7 @@ aside #subNav2 li {
 	}
 
 
-html
+/* html
 {
 
     width: 100%;
@@ -42,7 +42,7 @@ html
     background-color: #e2e2e2;
     font-size: 16px;
 
-}
+} */
 
 .test
 {
@@ -219,7 +219,7 @@ section {
 	width: 100%;
 }
 
-    body
+    /* body
     {
 
         width: 100%;
@@ -230,7 +230,7 @@ section {
         font-family: Verdana, sans-serif;
         background-color: #e2e2e2;
 
-    }
+    } */
     
     .mbottom {
 	    margin-bottom: 15px;
