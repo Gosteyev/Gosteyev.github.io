@@ -34,7 +34,7 @@ aside #subNav2 li {
 	}
 
 
-/* html
+html
 {
 
     width: 100%;
@@ -42,7 +42,7 @@ aside #subNav2 li {
     background-color: #e2e2e2;
     font-size: 16px;
 
-} */
+}
 
 .test
 {
@@ -219,7 +219,7 @@ section {
 	width: 100%;
 }
 
-    /* body
+    body
     {
 
         width: 100%;
@@ -230,7 +230,7 @@ section {
         font-family: Verdana, sans-serif;
         background-color: #e2e2e2;
 
-    } */
+    }
     
     .mbottom {
 	    margin-bottom: 15px;
@@ -262,336 +262,7 @@ body:not(.theme-preset-active) footer#colophon {
 	background-color: #ffffff;
 }
 
-        div#wrapper
-        {
-
-            position: relative;
-            top: 0;
-            width: 64em;
-            margin-left: auto;
-            margin-right: auto;
-            background-color: #ffffff;
-            text-align: center;
-
-        }
-
-        div#wrapper.home
-        {
-
-            padding-top: 40px;
-
-        }
-
-        div#wrapper.lvl2
-        {
-
-            padding-top: 11em;
-
-        }
-
-            .clearFloat:after
-            {
-
-                content: ".";
-                display: block;
-                height: 0;
-                clear: both;
-                visibility: hidden;
-
-            }
-
-            a
-            {
-
-                outline: none;
-                color: #003d7c;
-
-            }
-
-            a img
-            {
-
-                border: none;
-
-            }
-
-            .hide
-            {
-
-                display: none;
-
-            }
-
-            div#header
-            {
-
-                position: absolute;
-                top: 0;
-                left: 1.25em;
-                width: 61.5em;
-                height: 11em;
-                margin-bottom: 2.625em;
-                clear: both;
-
-                background-image: url('images/buildingSupport.gif');
-                background-repeat: no-repeat;
-                background-position: 23em 3.5em;
-
-            }
-
-                a#logo
-                {
-
-                    position: absolute;
-                    top: 0.9375em;
-                    left: 3.625em;
-                    display: block;
-                    width: 8.75em;
-                    height: 7.125em;
-
-                }
-
-                ul#topNav
-                {
-
-                    position: absolute;
-                    top: 0.75em;
-                    right: 0em;
-                    display: block;
-                    margin: 0;
-                    padding: 0;
-                    list-style-type: none;
-
-                }
-
-                    ul#topNav li
-                    {
-
-                        display: inline;
-                        padding: 0 0.65em 0 0.65em;
-
-                    }
-
-                    ul#topNav li.first
-                    {
-
-                        padding-left: 0;
-
-                    }
-
-                    ul#topNav li.last
-                    {
-
-                        padding-right: 0;
-
-                    }
-
-                        ul#topNav li a
-                        {
-
-                            font-size: 0.875em;
-                            text-decoration: none;
-                            color: #003d7c;
-
-                        }
-
-                        ul#topNav li a:hover,
-                        ul#topNav li a:focus,
-                        ul#topNav li a.on
-                        {
-
-                            color: #d69f0c;
-
-                        }
-
-/*
-                    div#mainNavWrap
-                    {
-
-                        position: absolute;
-                        top: 9em;
-                        left: 0em;
-
-                        width: 61.5em;
-                        height: 2em;
-                        text-align: left;
-                        padding: 0 15px;
-
-                    }
-*/
-
-                        .topLeft
-                        {
-
-                            background-repeat: no-repeat;
-                            background-image: url('images/mainNavTopLeft.gif');
-                            background-position: top left;
-
-                        }
-
-                        .bottomLeft
-                        {
-
-                            background-repeat: no-repeat;
-                            background-image: url('images/mainNavBottomLeft.gif');
-                            background-position: bottom left;
-
-                        }
-
-                        .bottomLeft.lvl2
-                        {
-
-                            background-image: url('images/mainNavBottomLeftL2.gif') !important;
-
-                        }
-
-                        .topRight
-                        {
-
-                            background-repeat: no-repeat;
-                            background-image: url('images/mainNavTopRight.gif');
-                            background-position: top right;
-
-                        }
-
-                        .bottomRight
-                        {
-
-                            background-repeat: no-repeat;
-                            background-image: url('images/mainNavBottomRight.gif');
-                            background-position: bottom right;
-
-                        }
-
-                        ul#mainNav
-                        {
-
-/*
-                            display: block;
-                            width: 50em;
-                            height: 100%;
-                            margin: 0;
-                            padding: 0;
-                            list-style-type: none;
-*/
-
-                        }
-
-                            ul#mainNav li
-                            {
-
-                                display: block;
-                                float: left;
-                                height: 100%;
-                                border-right: 1px solid #ffffff;
-
-                            }
-
-                            ul#mainNav li.first
-                            {
-
-                                margin-left: 0.5em;
-                                clear: left;
-
-                            }
-
-                                ul#mainNav li a
-                                {
-
-                                    display: block;
-                                    height: 100%;
-                                    line-height: 2.25em;
-                                    color: #ffffff;
-                                    text-decoration: none;
-                                    padding: 0 1.1425em 0 1.1425em;
-                                    font-size: 0.875em;
-
-                                }
-                                
-                                
-                                @media screen and (max-width: 991px) and (min-width:421px) {
-                                
-                                
-                                ul#mainNav li a
-                                {
-
-                                    display: block;
-                                    height: 100%;
-                                    line-height: 2.25em;
-                                    color: #ffffff;
-                                    text-decoration: none;
-                                    padding: 0 7px 0 7px;
-                                    font-size: 0.875em;
-
-                                }
-                                
-                                }
-                                
-                                
-                                
-
-                                ul#mainNav li a:hover,
-                                ul#mainNav li a:focus,
-                                ul#mainNav li a.on
-                                {
-
-                                    background-color: #809ebe;
-
-                                }
-
-                            form#search
-                            {
-
-                                position: absolute;
-                                top: 0;
-                                right: 0;
-                                display: block;
-                                height: 2em;
-                                margin: 0;
-                                padding: 0;
-
-                            }
-
-                                form#search fieldset
-                                {
-
-                                    display: block;
-                                    width: 100%;
-                                    height: 100%;
-                                    border: none;
-                                    margin: 0;
-                                    padding: 0;
-
-                                }
-
-                                    form#search legend,
-                                    form#search label
-                                    {
-
-                                        display: none;
-
-                                    }
-
-                                    input#searchBox
-                                    {
-
-                                        display: block;
-                                        float: left;
-                                        width: 13.75em;
-                                        margin: 0.45em 0.5em 0 0;
-                                        color: #777777;
-                                        font-size: 0.75em;
-
-                                    }
-
-                                    input#goBtn
-                                    {
-
-                                        margin: 0.3em 0.5em 0 0;
-                                        display: block;
-                                        float: left;
-
-                                    }
+      /* HRERERER */
 
             div#centerCol
             {
