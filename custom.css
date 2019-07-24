@@ -72,337 +72,196 @@ aside #subNav {
 }
 */
 
+.headlines-container {
+	    height: auto;
+    max-height: 299px;
+    overflow-y: scroll;
+}
 
-        div#wrapper
-        {
+.headlines-container p {
+	text-align: left;
+}
 
-            position: relative;
-            top: 0;
-            width: 64em;
-            margin-left: auto;
-            margin-right: auto;
-            background-color: #ffffff;
-            text-align: center;
+.headline-container h1 {
+	text-align: left;
+}
 
-        }
+.custom-navigation a {
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #003d7c;
+	font-weight: bold;
+}
 
-        div#wrapper.home
-        {
+.gallery-caption {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255,255,255,0.5);
+    width: 100%;
+    padding: 0.375em 0.5em 0.375em 0.5em;
+}
 
-            padding-top: 40px;
+.gallery-caption p {
+	font-weight: bold;
+    color: #003d7c;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 50px;
+}
 
-        }
+.vertical-center {
+	position: relative;
+	display: block;
+	top: 50%;
+	transform: translateY(-50%);
+}
 
-        div#wrapper.lvl2
-        {
+.gallery-caption p a {
+	color: #d69f0c;
+}
 
-            padding-top: 11em;
+.custom-navigation {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
 
-        }
+.custom-navigation > a {
+    width: 52px;
+}
 
-            .clearFloat:after
-            {
+.custom-navigation > * {
+    display: table-cell;
+}
 
-                content: ".";
-                display: block;
-                height: 0;
-                clear: both;
-                visibility: hidden;
+.featureBoxinterior img {
+	max-width: 196px;
+	max-height: 157px;
+}
 
-            }
+.featCont {
+	    position: relative;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
-            a
-            {
+aside #subNav {
+/* 	padding: 0; */
+}
 
-                outline: none;
-                color: #003d7c;
+aside #subNav li {
+	list-style: none;
+}
 
-            }
+#toggler-wrapper {
+	display: none;
+	
+}
 
-            a img
-            {
+.navbar-toggler {
+	background-color: #003d7c;
+    width: 100%;
+    border: 0px solid #003d7c;
+    border-radius: 5px;
+    width:56px;
+}
 
-                border: none;
+#menuh2 {
+	    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+}
 
-            }
+.navbar {
+	background-color: #003d7c;
+    width: 100%;
+    border: 0px solid #003d7c;
+}
 
-            .hide
-            {
+.navbar-toggler-icon {
+	color: #ffffff;
+	font-size: 20px;
+	
+}
 
-                display: none;
-
-            }
-
-            div#header
-            {
-
-                position: absolute;
-                top: 0;
-                left: 1.25em;
-                width: 61.5em;
-                height: 11em;
-                margin-bottom: 2.625em;
-                clear: both;
-
-                background-image: url('images/buildingSupport.gif');
-                background-repeat: no-repeat;
-                background-position: 23em 3.5em;
-
-            }
-
-                a#logo
-                {
-
-                    position: absolute;
-                    top: 0.9375em;
-                    left: 3.625em;
-                    display: block;
-                    width: 8.75em;
-                    height: 7.125em;
-
-                }
-
-                ul#topNav
-                {
-
-                    position: absolute;
-                    top: 0.75em;
-                    right: 0em;
-                    display: block;
-                    margin: 0;
-                    padding: 0;
-                    list-style-type: none;
-
-                }
-
-                    ul#topNav li
-                    {
-
-                        display: inline;
-                        padding: 0 0.65em 0 0.65em;
-
-                    }
-
-                    ul#topNav li.first
-                    {
-
-                        padding-left: 0;
-
-                    }
-
-                    ul#topNav li.last
-                    {
-
-                        padding-right: 0;
-
-                    }
-
-                        ul#topNav li a
-                        {
-
-                            font-size: 0.875em;
-                            text-decoration: none;
-                            color: #003d7c;
-
-                        }
-
-                        ul#topNav li a:hover,
-                        ul#topNav li a:focus,
-                        ul#topNav li a.on
-                        {
-
-                            color: #d69f0c;
-
-                        }
-
+.navbar-toggler-icon .fas {
+	    position: relative;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
 /*
-                    div#mainNavWrap
-                    {
-
-                        position: absolute;
-                        top: 9em;
-                        left: 0em;
-
-                        width: 61.5em;
-                        height: 2em;
-                        text-align: left;
-                        padding: 0 15px;
-
-                    }
+#mainNavWrap .navbar {
+	width: 100%;
+}
 */
 
-                        .topLeft
-                        {
+#mainNavWrap {
+	width: 100%;
+	display: block;
+	position: relative;
+}
 
-                            background-repeat: no-repeat;
-                            background-image: url('images/mainNavTopLeft.gif');
-                            background-position: top left;
+#mainNav, #mainNav li {
+	margin-bottom: 0;
+	padding-left: 0;
+}
 
-                        }
+section {
+	width: 100%;
+}
 
-                        .bottomLeft
-                        {
+#primary {
+	background-color: #ffffff;
+	width: 100%;
+}
 
-                            background-repeat: no-repeat;
-                            background-image: url('images/mainNavBottomLeft.gif');
-                            background-position: bottom left;
+    body
+    {
 
-                        }
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-family: Verdana, sans-serif;
+        background-color: #e2e2e2;
 
-                        .bottomLeft.lvl2
-                        {
-
-                            background-image: url('images/mainNavBottomLeftL2.gif') !important;
-
-                        }
-
-                        .topRight
-                        {
-
-                            background-repeat: no-repeat;
-                            background-image: url('images/mainNavTopRight.gif');
-                            background-position: top right;
-
-                        }
-
-                        .bottomRight
-                        {
-
-                            background-repeat: no-repeat;
-                            background-image: url('images/mainNavBottomRight.gif');
-                            background-position: bottom right;
-
-                        }
-
-                        ul#mainNav
-                        {
-
+    }
+    
+    .mbottom {
+	    margin-bottom: 15px;
+    }
+    
 /*
-                            display: block;
-                            width: 50em;
-                            height: 100%;
-                            margin: 0;
-                            padding: 0;
-                            list-style-type: none;
+    .navbar {
+	    width: 100%;
+	    height: 2em;
+	    background-color: #003d7c;
+    }
 */
+    
+    header .container {
+	    background-color: #ffffff;
+    }
+    
+    #content.site-content {
+    padding-bottom: 0;
+    padding-top: 0;
+}
 
-                        }
+body:not(.theme-preset-active) footer#colophon {
+    color: #99979c;
+/*     background-color: none; */
+}
 
-                            ul#mainNav li
-                            {
+.container {
+	background-color: #ffffff;
+}
 
-                                display: block;
-                                float: left;
-                                height: 100%;
-                                border-right: 1px solid #ffffff;
-
-                            }
-
-                            ul#mainNav li.first
-                            {
-
-                                margin-left: 0.5em;
-                                clear: left;
-
-                            }
-
-                                ul#mainNav li a
-                                {
-
-                                    display: block;
-                                    height: 100%;
-                                    line-height: 2.25em;
-                                    color: #ffffff;
-                                    text-decoration: none;
-                                    padding: 0 1.1425em 0 1.1425em;
-                                    font-size: 0.875em;
-
-                                }
-                                
-                                
-                                @media screen and (max-width: 991px) and (min-width:421px) {
-                                
-                                
-                                ul#mainNav li a
-                                {
-
-                                    display: block;
-                                    height: 100%;
-                                    line-height: 2.25em;
-                                    color: #ffffff;
-                                    text-decoration: none;
-                                    padding: 0 7px 0 7px;
-                                    font-size: 0.875em;
-
-                                }
-                                
-                                }
-                                
-                                
-                                
-
-                                ul#mainNav li a:hover,
-                                ul#mainNav li a:focus,
-                                ul#mainNav li a.on
-                                {
-
-                                    background-color: #809ebe;
-
-                                }
-
-                            form#search
-                            {
-
-                                position: absolute;
-                                top: 0;
-                                right: 0;
-                                display: block;
-                                height: 2em;
-                                margin: 0;
-                                padding: 0;
-
-                            }
-
-                                form#search fieldset
-                                {
-
-                                    display: block;
-                                    width: 100%;
-                                    height: 100%;
-                                    border: none;
-                                    margin: 0;
-                                    padding: 0;
-
-                                }
-
-                                    form#search legend,
-                                    form#search label
-                                    {
-
-                                        display: none;
-
-                                    }
-
-                                    input#searchBox
-                                    {
-
-                                        display: block;
-                                        float: left;
-                                        width: 13.75em;
-                                        margin: 0.45em 0.5em 0 0;
-                                        color: #777777;
-                                        font-size: 0.75em;
-
-                                    }
-
-                                    input#goBtn
-                                    {
-
-                                        margin: 0.3em 0.5em 0 0;
-                                        display: block;
-                                        float: left;
-
-                                    } */
 
             /* div#centerCol
             {
