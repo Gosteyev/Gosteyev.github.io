@@ -1,0 +1,23 @@
+ // If we can't fetch the tickets and we used a promo, remove the promo and try again
+ -        let thisView = this;
+ -        let isTracking = this.model.get('isTracking');
+ -        let prevCode = this.model.get('tickets').get('code');
+ -
+ -        if (prevCode) {
+ -            // If we have successfully re-fetched the tickets, show the error code
+ -            let success = function() {
+ -                if (!isTracking) {
+ -                    thisView.$('.promotional-code-link').addClass('hide');
+ -                    thisView.$('.show-promotional-code-panel').collapse('show');
+ -
+ -                    // put the code with an error in the promotion
+ -                    thisView.$('.error-promo').addClass('error-visible');
+ -                    thisView.$('.promotional-code-input').val(prevCode);
+ -                }
+ -            };
+ -
+ -            this.model.get('transaction').unset('promotionCode');
+ -            this.model.get('tickets').unset('code');
+ -            this.model.fetch({success: success});
+ -        }
+ 
