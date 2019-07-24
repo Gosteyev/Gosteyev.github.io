@@ -262,6 +262,336 @@ body:not(.theme-preset-active) footer#colophon {
 	background-color: #ffffff;
 }
 
+        div#wrapper
+        {
+
+            position: relative;
+            top: 0;
+            width: 64em;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #ffffff;
+            text-align: center;
+
+        }
+
+        div#wrapper.home
+        {
+
+            padding-top: 40px;
+
+        }
+
+        div#wrapper.lvl2
+        {
+
+            padding-top: 11em;
+
+        }
+
+            .clearFloat:after
+            {
+
+                content: ".";
+                display: block;
+                height: 0;
+                clear: both;
+                visibility: hidden;
+
+            }
+
+            a
+            {
+
+                outline: none;
+                color: #003d7c;
+
+            }
+
+            a img
+            {
+
+                border: none;
+
+            }
+
+            .hide
+            {
+
+                display: none;
+
+            }
+
+            div#header
+            {
+
+                position: absolute;
+                top: 0;
+                left: 1.25em;
+                width: 61.5em;
+                height: 11em;
+                margin-bottom: 2.625em;
+                clear: both;
+
+                background-image: url('images/buildingSupport.gif');
+                background-repeat: no-repeat;
+                background-position: 23em 3.5em;
+
+            }
+
+                a#logo
+                {
+
+                    position: absolute;
+                    top: 0.9375em;
+                    left: 3.625em;
+                    display: block;
+                    width: 8.75em;
+                    height: 7.125em;
+
+                }
+
+                ul#topNav
+                {
+
+                    position: absolute;
+                    top: 0.75em;
+                    right: 0em;
+                    display: block;
+                    margin: 0;
+                    padding: 0;
+                    list-style-type: none;
+
+                }
+
+                    ul#topNav li
+                    {
+
+                        display: inline;
+                        padding: 0 0.65em 0 0.65em;
+
+                    }
+
+                    ul#topNav li.first
+                    {
+
+                        padding-left: 0;
+
+                    }
+
+                    ul#topNav li.last
+                    {
+
+                        padding-right: 0;
+
+                    }
+
+                        ul#topNav li a
+                        {
+
+                            font-size: 0.875em;
+                            text-decoration: none;
+                            color: #003d7c;
+
+                        }
+
+                        ul#topNav li a:hover,
+                        ul#topNav li a:focus,
+                        ul#topNav li a.on
+                        {
+
+                            color: #d69f0c;
+
+                        }
+
+/*
+                    div#mainNavWrap
+                    {
+
+                        position: absolute;
+                        top: 9em;
+                        left: 0em;
+
+                        width: 61.5em;
+                        height: 2em;
+                        text-align: left;
+                        padding: 0 15px;
+
+                    }
+*/
+
+                        .topLeft
+                        {
+
+                            background-repeat: no-repeat;
+                            background-image: url('images/mainNavTopLeft.gif');
+                            background-position: top left;
+
+                        }
+
+                        .bottomLeft
+                        {
+
+                            background-repeat: no-repeat;
+                            background-image: url('images/mainNavBottomLeft.gif');
+                            background-position: bottom left;
+
+                        }
+
+                        .bottomLeft.lvl2
+                        {
+
+                            background-image: url('images/mainNavBottomLeftL2.gif') !important;
+
+                        }
+
+                        .topRight
+                        {
+
+                            background-repeat: no-repeat;
+                            background-image: url('images/mainNavTopRight.gif');
+                            background-position: top right;
+
+                        }
+
+                        .bottomRight
+                        {
+
+                            background-repeat: no-repeat;
+                            background-image: url('images/mainNavBottomRight.gif');
+                            background-position: bottom right;
+
+                        }
+
+                        ul#mainNav
+                        {
+
+/*
+                            display: block;
+                            width: 50em;
+                            height: 100%;
+                            margin: 0;
+                            padding: 0;
+                            list-style-type: none;
+*/
+
+                        }
+
+                            ul#mainNav li
+                            {
+
+                                display: block;
+                                float: left;
+                                height: 100%;
+                                border-right: 1px solid #ffffff;
+
+                            }
+
+                            ul#mainNav li.first
+                            {
+
+                                margin-left: 0.5em;
+                                clear: left;
+
+                            }
+
+                                ul#mainNav li a
+                                {
+
+                                    display: block;
+                                    height: 100%;
+                                    line-height: 2.25em;
+                                    color: #ffffff;
+                                    text-decoration: none;
+                                    padding: 0 1.1425em 0 1.1425em;
+                                    font-size: 0.875em;
+
+                                }
+                                
+                                
+                                @media screen and (max-width: 991px) and (min-width:421px) {
+                                
+                                
+                                ul#mainNav li a
+                                {
+
+                                    display: block;
+                                    height: 100%;
+                                    line-height: 2.25em;
+                                    color: #ffffff;
+                                    text-decoration: none;
+                                    padding: 0 7px 0 7px;
+                                    font-size: 0.875em;
+
+                                }
+                                
+                                }
+                                
+                                
+                                
+
+                                ul#mainNav li a:hover,
+                                ul#mainNav li a:focus,
+                                ul#mainNav li a.on
+                                {
+
+                                    background-color: #809ebe;
+
+                                }
+
+                            form#search
+                            {
+
+                                position: absolute;
+                                top: 0;
+                                right: 0;
+                                display: block;
+                                height: 2em;
+                                margin: 0;
+                                padding: 0;
+
+                            }
+
+                                form#search fieldset
+                                {
+
+                                    display: block;
+                                    width: 100%;
+                                    height: 100%;
+                                    border: none;
+                                    margin: 0;
+                                    padding: 0;
+
+                                }
+
+                                    form#search legend,
+                                    form#search label
+                                    {
+
+                                        display: none;
+
+                                    }
+
+                                    input#searchBox
+                                    {
+
+                                        display: block;
+                                        float: left;
+                                        width: 13.75em;
+                                        margin: 0.45em 0.5em 0 0;
+                                        color: #777777;
+                                        font-size: 0.75em;
+
+                                    }
+
+                                    input#goBtn
+                                    {
+
+                                        margin: 0.3em 0.5em 0 0;
+                                        display: block;
+                                        float: left;
+
+                                    } */
 
             /* div#centerCol
             {
@@ -545,190 +875,7 @@ body:not(.theme-preset-active) footer#colophon {
 
                             } */
 
-                div#features
-                {
-
-                    position: relative;
-                    top: 2.875em;
-                    width: 100%;
-                    height: 15.125em;
-                    clear: both;
-
-                }
-
-                    div#centerContent
-                    {
-
-
-                        width: 41.9375em;
-                        min-height: 30em;
-                        float: right;
-                        margin-top: 2em;
-                        margin-right: 2em;
-
-                    }
-
-                    div#leftNavCol
-                    {
-
-                        float: left;
-                        width: 14.9375em;
-
-                    }
-
-                        ul#leftNav
-                        {
-
-                            display: block;
-                            margin: 0;
-                            padding: 2.625em 0.5em 4.5em 1em;
-                            list-style-type: none;
-                            background-color: #f0f0f0;
-                            background-image: url('images/l2BottomCorners.gif');
-                            background-repeat: no-repeat;
-                            background-position: center bottom;
-
-                        }
-
-                            ul#leftNav li
-                            {
-
-                                margin-bottom: 0.75em;
-
-                            }
-
-                            ul#leftNav li.last
-                            {
-
-                                margin-bottom: 0 !important;
-
-                            }
-
-                                ul#leftNav li ul.subNav
-                                {
-
-                                    display: block;
-                                    margin: 0.5em 0 0 2em;
-                                    padding: 0;
-                                    list-style-type: none;
-                                    font-size: 0.95em;
-
-                                }
-
-                                    ul#leftNav li ul.subNav li
-                                    {
-
-                                        margin-bottom: .5em !important;
-
-                                    }
-
-                                div#leftNavCol a
-                                {
-
-                                    font-size: 0.875em;
-                                    text-decoration: none;
-
-                                }
-
-                                div#leftNavCol a:hover,
-                                div#leftNavCol a:focus,
-                                div#leftNavCol a.on
-                                {
-
-                                    color: #d69f0c;
-
-                                }
-
-                        ul#l2SupportRCI
-                        {
-
-                            display: block;
-                            width: 14.9375em;
-                            height: 2.875em;
-                            margin: 1em 0 0 0;
-                            padding: 0;
-                            list-style-type: none;
-
-                        }
-
-                            ul#l2SupportRCI li
-                            {
-
-                                display: block;
-                                width: 100%;
-                                height: 100%;
-
-                            }
-
-                                ul#l2SupportRCI li a
-                                {
-
-                                    display: block;
-                                    width: 100%;
-                                    height: 100%;
-                                    background-image: url('images/l2SupportRCI.gif');
-                                    background-repeat: no-repeat;
-
-                                }
-
-                                ul#l2SupportRCI li a:hover,
-                                ul#l2SupportRCI li a:focus
-                                {
-
-                                    background-image: url('images/l2SupportRCIR.gif');
-
-                                }
-
-                ul#footer
-                {
-
-/*
-                    position: relative;
-                    bottom: 2em;
-                    display: block;
-                    clear: both;
-                    margin: 10.5em auto 0em auto;
-                    list-style-type: none;
-                    line-height: 150%;
-*/
-
-                }
-
-                    ul#footer li
-                    {
-
-                        display: inline;
-                        background-image: url('images/footerBullet.gif');
-                        background-repeat: no-repeat;
-                        background-position: right center;
-                        padding: 0 0.625em 0 0.625em;
-                        font-size: 0.75em;
-
-                    }
-
-                    ul#footer li.break,
-                    ul#footer li.last
-                    {
-
-                        background-image: none;
-                        padding-right: 0;
-
-                    }
-
-                    ul#footer li a
-                    {
-
-                        text-decoration: none;
-
-                    }
-
-                    ul#footer li a:hover,
-                    ul#footer li a:focus
-                    {
-
-                        color: #d69f0c;
-
-                    }
+                
 
 .dateLine
 {
