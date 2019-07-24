@@ -72,11 +72,7 @@ aside #subNav {
 }
 */
 
-.headlines-container {
-	    height: auto;
-    max-height: 299px;
-    overflow-y: scroll;
-}
+
 
 .headlines-container p {
 	text-align: left;
