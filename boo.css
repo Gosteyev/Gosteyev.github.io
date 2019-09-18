@@ -1,0 +1,538 @@
+
+/*specific pages container*/
+.home-custom-css{}
+.community-custom-css{}
+.agenda-custom-css{}
+.speakers-custom-css{}
+
+body.widget-body {
+	color:#000;
+}
+
+/*main container of each section*/
+.main-app-container {}
+
+/*
+call-to-action buttons e.g:
+Register, Join The Community etc
+*/
+.btn-register {
+  font-family: 'Druk-Web', sans-serif;
+  font-size: 20px;
+}
+
+/*Top navigation bar container*/
+.template-nav {
+	font-family: 'Druk-Web', sans-serif;
+  	letter-spacing: 1.5px;
+  	font-size: 24px;
+}
+
+
+/*Top navigation bar items container*/
+#bs-example-navbar-collapse-1 {
+	font-family: 'Druk-Web', sans-serif;
+  	letter-spacing: 1.5px;
+  	font-size: 20px;}
+
+bs-example-navbar-collapse-1
+
+/*social share buttons container*/
+.social-share-button {}
+
+/*social share buttons per social network*/
+.social-share-button.facebook {}
+.social-share-button.twitter {}
+.social-share-button.linkedin {}
+.social-share-button.google {}
+
+
+.google-map-holder {
+  line-height: 0.9;
+}
+
+.trade-template .event-image-holder {
+    height: 400px;
+  margin-bottom: 30px;
+}
+
+
+.element-1596512 {
+    display: none;
+}
+
+.video-element {
+  opacity: 0.6;
+}
+
+div.rowHolder.no-background {
+    background-color: #000 !important;
+}
+
+body {
+	font-family: 'Graphik', sans-serif;
+  	font-size: 10pt;
+  	color: #000;
+  	background-image: url("https://cdn.theatlantic.com/assets/media/files/afestwebbg.jpg");
+  	background-position: center center;
+    /* background-repeat: no-repeat;
+    background-attachment: fixed; */
+  	background-size: cover;
+  	background-color: #FFFFFF !important;
+}
+
+.trade-template .speakers .attendee-name, .trade-template .speakers .attendee-title, .trade-template .speakers .attendee-company {
+margin-top:0;
+margin-bottom:0;
+}
+
+div.atom-text1.attendee-title, div.atom-text2.attendee-company {
+  color: #b0b0b0;
+}
+
+
+.section-467318 .element-1596518 .atom-main {
+border-radius: 0;
+text-transform: uppercase;
+}
+
+
+/* navbar styles */
+.navbar .navbar-collapse {
+    position: sticky;
+}
+
+div.nav-menu-btn.custom-color.color-5.color-1-border.color-1-hover.color-1-selected {
+    font-family: 'Druk-Web', sans-serif !important;
+  	letter-spacing: 1.5px;
+  	font-size: 24px;
+ }
+
+.element-1596867, .element-1604920 {
+    display: none;
+}
+
+.nav>li {
+	font-family: 'Druk-Web', sans-serif !important;
+  	letter-spacing: 1.5px;
+  	font-size: 24px;
+}
+
+.element-1596869, .element-1596872 {
+    margin-bottom: 0;
+ }
+
+div.col-sm-6.padding-horizontal-medium.overflow-hidden.bz-flex-col {
+    padding: 0;
+ }
+
+div.main-app-container.custom-space-top.custom-space-bottom {
+    margin: auto;
+ }
+/*
+.main-app-container {
+  max-width: 100%;
+}
+*/
+/* force full-width sections on homepage */
+.element-1596868 > .main-app-container {
+	max-width: 100%;
+}
+
+.element-1604921 >.main-app-container {
+	max-width: 100%;
+}
+
+.element-1618373 >.main-app-container {
+	max-width: 100%;
+}
+
+div.trade-template.section-465177 {
+    width: 70%;
+    margin: auto;
+ }
+
+.element-1604925, .element-1604922 {
+  	margin-bottom: 0;
+}
+
+.element-1605743 {
+  	max-width: 1090px;
+  	margin: auto;
+}
+
+.section-469036 {
+	max-width: 1200px;
+  	margin: auto;
+}
+
+.section-470064 {
+	max-width: 1200px;
+  	margin: auto;
+}
+
+.section-470064 a {
+  color: #000;
+}
+
+.section-470064 a:hover {
+  color: #ff4555;
+}
+
+.agenda-view .session-list-container .session-day-container .time-row .time-elem > div {
+	border-radius: 0;
+}
+
+.form-control {
+	border-radius: 0;
+}
+
+div.agenda-view {
+    font-family:'Graphik', sans-serif;
+}
+
+.btn {
+	border-radius: 0;
+  	border: 0px;
+  	background-color: #ff4555;
+}
+
+.btn:hover {
+	background-color: #000;
+}
+
+.btn-default {
+	border: none;
+  	border-radius: 0px;
+}
+
+input {
+	font-family:'Graphik', sans-serif;
+}
+
+/* Community Partners Amendments */
+
+.element-1698071 > div.main-app-container {
+	max-width: 1200px;
+  	margin: auto;
+}
+
+.element-1698071 > div > div > div.overflow-hidden {
+	overflow: visible;
+}
+
+.element-1698627 > div.main-app-container {
+	max-width: 1200px;
+  	margin: auto;
+}
+
+.element-1698627 > div > div > div.overflow-hidden {
+	overflow: visible;
+}
+
+.p-l10 {
+	padding-left: 10%;
+}
+
+.p-r10 {
+	padding-right: 10%;
+}
+
+
+/* speaker bio section */
+ 
+div.speaker-position.text-ellipsis {
+	font-family:'Graphik', sans-serif;
+}
+
+.speaker-view {
+  	font-family:'Graphik', sans-serif;
+	color: #000;
+}
+
+div.atom-fullname.attendee-name {
+	font-weight: bold;
+}
+
+.speaker-view .speaker-container .speaker-profile .speaker-bio-wrapper {
+	color: #000;
+}
+  
+.color-1-background, .color-1-background.custom-color {
+	background-color: #ff4555;
+}
+  
+ /* tickets and registration */
+
+.color-1-background, .color-1-background.custom-color {
+	background-color: #000;
+}
+ 
+.sponsor-img-holder {
+	border: none;
+}
+
+.element-1613774 {
+	height: 40px;
+}
+
+/*
+div.panel-heading.custom-color.color-1-background {
+	font-family: 'Graphik',sans-serif !important;
+  	font-size: 22px !important;
+}
+*/
+
+/* for map numbers*/
+span.step {
+  background: #000;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 5px;
+  text-align: center;
+  width: 1.6em; 
+}
+
+/* uw logos */
+.sponsor-label-holder {
+	display: none;
+}
+
+.sponsor-img-holder {
+	background-color:#ffffff00;
+}
+
+.trade-template div.sponsor-holder.wow {
+	max-width: 350px;
+}
+
+div.sponsor-holder.col-xs-12 {
+	max-width: 700px;
+}
+
+
+div.session-name.custom-font.col-lg-12.col-md-12 {
+	font-family: 'Graphik', sans-serif;
+}
+
+div.session-title.custom-font.font-size-24.col-lg-12.col-md-12 {
+	font-family: 'Graphik', sans-serif;
+
+}
+
+div.speaker-community-like-wrapper.custom-color.color-1.hidden-xs {
+	display: none;	
+}
+
+h1.speaker-name {
+	font-family: 'Graphik', sans-serif;
+}
+
+.speakerDisc {
+	width: 500px; 
+  	height: 50px;
+}
+
+div.trade-template.section-476850 > div > div > div > iframe {
+    min-height: 200px;
+    overflow: visible;
+}
+
+/*
+div.trade-template.section-473203 > div > div > div > iframe {
+	min-height: 500px;
+  	max-height: 1000px;
+    overflow: visible;
+}
+*/
+
+.speaker-twitter {
+	display: none;
+}
+
+.section-464955 {
+	width: 1200px;
+  	margin: auto;
+}
+
+br.introBreak {
+ display: none;
+}
+
+/* video player - home page */
+
+div.trade-template.section-499307 > div > div > div.col-xs-12.margin-vertical-small { 
+  margin: 0;
+  padding: 0;
+}
+
+/* viewport amendments*/
+
+/* tablet */
+@media(max-width: 1200px){
+	.section-464955 {
+      	width: 80%;
+      	margin: auto;
+  	}	
+}
+
+@media(max-width: 1024px){
+	div.trade-template.section-476850 > div > div > div > iframe {
+    	min-height: 580px;
+    	overflow: visible;
+	 }
+  
+  	 div.trade-template.section-469999 > div > div > div > iframe {
+		min-height: 2900px;
+    	overflow: visible;
+  	 }
+  	 
+  	 .section-464955 {
+      	width: 80%;
+      	margin: auto;
+  	 }	
+}
+
+/* mobile */
+@media(max-width: 768px) {
+	.element-1618373 div.col-sm-6.padding-horizontal-medium.overflow-hidden.bz-flex-col {
+    	padding: 0;
+      	overflow: visible;
+	    display: block;
+     }
+  	div.col-sm-6.padding-horizontal-medium.overflow-hidden.bz-flex-col {
+    	padding: 1px;
+ 	}
+  	 div.trade-template.section-476850 > div > div > div > iframe {
+    	min-height: 580px;
+    	overflow: visible;
+	 }
+  
+  div.trade-template.section-469999 > div > div > div > iframe {
+		min-height: 2900px;
+    	overflow: visible;
+  }
+  
+  	.speakerDisc {
+      	width: 360px; 
+      	height: 78px;	
+	}
+  
+  	.section-464955 {
+      	width: 80%;
+      	margin: auto;
+  	 }	
+  
+    br.introBreak {
+   		display: inline;
+  	}	
+ 
+  div.main-app-container.custom-space-top.custom-space-bottom.square-shadow {
+  	background-image: url('https://cdn.theatlantic.com/assets/media/files/af19-webheader-70pblack.gif');
+    background-color: #000;
+  }
+  
+  .video-element {
+    opacity: 0;
+  }
+  
+  .element-1698627 > div > div > div.overflow-hidden {
+	width: 70%;
+    margin: auto;
+	}
+  
+  .element-1698071 > div > div > div.overflow-hidden {
+	width: 70%;
+    margin: auto;
+	}
+  
+  	/* .p-l10 {
+		padding-left: 0;
+	}
+
+	.p-r10 {
+		padding-right: 0;
+	} */
+}
+
+/*enlarged logos*/
+.agenda-view .session-list-container .session-day-container .time-row .session-elem .session-container .sponsors-container .sponsor-image {
+    display: block;
+    max-height: 70px;
+    max-width: 170px;
+}
+
+/* removing borders for sponsor logo within view agenda session*/
+.agenda-view .session-page .session-sponsors-container .itemSponsor .section-logo-sponsor {
+    height: 160px;
+    width: 160px;
+    max-width: 160px;
+    min-width: 160px;
+    margin-right: 28px;
+    border: none;
+}
+
+/* size 15px font "Underwritten by" */
+.agenda-view .session-list-container .session-day-container .time-row .session-elem .session-container .sponsors-container .sponsored-by {
+    margin-top: 0px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* remove sponsor text within specific session */
+.agenda-view .session-page .session-sponsors-container .itemSponsor .sponsor-info-container .sponsor-name {
+    font-size: 12px;
+    display: none;
+}
+
+
+/* enlarging sponsor logo within individual session */
+.agenda-view .session-page .session-sponsors-container .itemSponsor .section-logo-sponsor .sponsor-logo-container .sponsor-image {
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    max-height: 120px;
+    max-width: 200px;
+}
+
+.session-view-action {
+  display: none;}
+
+body > div.react-main > div > div > div.agenda-view.session-list-view.top-agenda-margin-single.agenda-custom-css.agenda-day-selector.row > div.tab-buttons-container.margin-bottom-small > div:nth-child(2) {
+  display: none;}
+
+/* the map: delete once its approved */
+.section-471883 {
+	display: none;
+}
+
+/* ticker: delete when active */
+.section-491427 {
+	display: none;
+}
+
+/* VideoEmbed: delete when active */
+.section-499307{
+	display: none;
+}
+
+.section-499307 > div > div > div.col-xs-12.margin-vertical-small {
+	position: relative;
+  	width: 100%;
+  	padding-bottom: 56.25% !important; 
+ 	height: 0;
+}
+
+.section-499307 > div > div > div.col-xs-12.margin-vertical-small iframe{
+	position: absolute;
+  	top:0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+}
