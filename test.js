@@ -26,6 +26,65 @@ return result
 
 window.makeChunks = makeChunks;
 
+//////////////REVERSE STRING
+const reversStr = (str) => {
+  const result = [];
+  for(let char of str){
+    result.unshift(char);
+  }
+  return result.join('');
+}
+
+const makeReverse = (str) => {
+
+  const arr = str.split('');
+
+  const res = arr.reduce((acc, next) => {
+    return acc + next
+
+  }, '')
+}
+///////////////////IS PALINDROM
+
+const isPalindrom = (string) => {
+  // const validChars = 'abcdefghijklmnopqrstuvwxyz'.split('');
+  // const arrayOfChars = string.toLowerCase().split('');
+
+  // const stringChars = arrayOfChars.reduce((acc, char) => {
+  //   return  validChars.indexOf(char) > -1 ? acc.concat(char) : acc
+  // },[])
+  // console.log(stringChars);
+  const stringChars = string.toLowerCase().split('').reverse().join('')
+
+  console.log(stringChars === string.toLowerCase())
+  return stringChars === string.toLowerCase();
+}
+
+isPalindrom('BOOB')
+
+///////////////DEBOUNCE
+function debounce(fun, ms){
+
+  let timeout;
+
+  return function(){
+    const context = this, args = arguments;
+    let later = function(){
+      timeout = null;
+      fun.apply(context, args);
+     }
+    clearTimeout(timeout);
+    timeout = setTimeout(later, ms);
+  }
+}
+
+const test = () => console.log('TEST');
+
+const f = debounce(test, 2000);
+f();
+f()
+
+
 
 // <script type="text/javascript">
 
