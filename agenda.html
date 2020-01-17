@@ -24,9 +24,9 @@
 <script>
     window.addEventListener('message', function(event) {
       console.log(`Получено ${event.data} из ${event.origin}`);
-      console.log('EEE', event);
       if(event.data && event.data.type === 'bzsdk.redirectToRegistration'){
-          window.location.href='https://mike-events.ext.dev.bizzabo.com/4';
+          console.log('GOT the MESSAGE');
+          //window.location.href='https://mike-events.ext.dev.bizzabo.com/4';
       }
     });
   </script>
