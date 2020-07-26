@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+.app {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  font-family: "Rancho", cursive;
+}
+
+.wrap {
+  width: 500px;
+}
+
+.select {
+  width: 100%;
+  position: relative;
+}
+.select.open .select__dropdown {
+  display: block;
+}
+.select__input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  justify-content: space-between;
+}
+.select__dropdown {
+  display: none;
+  position: absolute;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  top: 46px;
+  left: 0;
+  right: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.select__list {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+.select__item {
+  padding: 1rem;
+}
+.select__item:hover {
+  background-color: #ffddaa;
+  cursor: pointer;
+  transition: 0.2s background-color ease-in;
+}
+
+/*# sourceMappingURL=/Gosteyev.github.io.e31bb0bc.css.map */

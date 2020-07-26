@@ -1,0 +1,6 @@
+ALTER TABLE `toggle_all` ADD COLUMN `type` VARCHAR(50) NOT NULL DEFAULT `development` AFTER `percent`;
+ALTER TABLE `toggle_all` ADD COLUMN `description` VARCHAR(255) NULL DEFAULT NULL AFTER `type`;
+ALTER TABLE `toggle_all` ADD COLUMN `label` VARCHAR(255) NULL DEFAULT NULL AFTER `description`;
+ALTER TABLE `toggle_all` ADD COLUMN `plan` VARCHAR(50) NULL DEFAULT NULL AFTER `label`;
+
+

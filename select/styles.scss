@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+.app {
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Rancho', cursive;
+
+}
+
+.wrap {
+    width: 500px;
+}
+
+$height: 46px;
+
+.select {
+    width: 100%;
+    position: relative;
+
+    &.open{
+        .select__dropdown{
+            display: block;
+        }
+    }
+
+
+    &__input{
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        height: $height;
+        display: flex;
+        align-items: center;
+        padding: 0 1rem;
+        justify-content: space-between;
+    }
+
+    &__dropdown{
+        display: none;
+        position: absolute;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        top: $height;
+        left: 0;
+        right: 0;
+        max-height: 200px;
+        overflow-y: auto;
+        box-shadow: 2px 3px 5px rgba(0,0,0,.3);
+
+    }
+
+    &__list{
+        padding: 0;
+        list-style: none;
+        margin: 0;
+
+    }
+
+    &__item {
+        padding: 1rem;
+
+        &:hover {
+            background-color: #ffddaa;
+            cursor: pointer;
+            transition: .200s background-color ease-in;
+        }
+    }
+}
