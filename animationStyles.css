@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    --nav-load-time: 300ms; /* defines variable for the animation time on navigation bar */
+    --link-load-time: 400ms;
+}
+
+nav {
+    background-color: rgb(0,61,92);
+    color: white;
+    animation: nav-load var(--nav-load-time) ease-out;
+}
+
+nav ul {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    list-style: none;
+    padding: 10px;
+    margin: 0 10px;
+    animation-name: nav-link-load;
+    animation-duration: var(--link-load-time);
+    animation-timing-function: ease-in;
+    animation-delay: var(--nav-load-time);
+    transform: scale(0);
+    animation-fill-mode: forwards;
+}
+
+nav li:first-child {
+    animation: nav-first-link-load var(--link-load-time);
+    animation-fill-mode: forwards;
+}
+
+nav li:last-child {
+    animation: nav-last-link-load var(--link-load-time);
+    animation-fill-mode: forwards;
+}
+
+nav li:hover {
+    background-color: #FFFFFF44;
+}
+
+nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+main {
+    padding: 30px;
+}
+
+article h1{
+    animation: h1-load 300ms calc(var(--nav-load-time) + var(--link-load-time));
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes nav-load {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes nav-link-load {
+    0% {
+        transform: scale(0);
+    }
+    90% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes nav-first-link-load {
+    0% {
+        transform: translateX(-1000%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes nav-last-link-load {
+    0% {
+        transform: translateX(1000%);
+    }
+    100% {
+        transform: translateX(0);
+
+    }
+}
+
+@keyframes h1-load {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+/*
+    Draggable section Styles
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eee;
+    color: #111;
+}
+
+.draggable-elements {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.draggable {
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    margin: 0rem 0.5rem;
+    cursor: move;
+    transition: opacity 0.2s;
+}
+
+.draggable:hover {
+    opacity: 0.5;
+}
+
+.droppable {
+    height: 6.5rem;
+    width: 6.5rem;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    background-color: #fff;
+    border: 3px dashed #111;
+    transition: border-width 0.2s, transform 0.2s, background-color 0.4s;
+}
+
+.droppable span {
+    font-size: 1.25rem;
+    pointer-events: none;
+}
+
+.droppable.droppable-hover {
+    border-width: 5px;
+    transform: scale(1.1);
+}
+
+.droppable.dropped {
+    border-style: solid;
+    color: #fff;
+}
+
+.droppable.dropped span {
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.droppable.dropped i {
+    pointer-events: none;
+}
+
+.draggable.dragged {
+    user-select: none;
+    opacity: 0.1;
+    cursor: default;
+}
+
+.draggable.dragged:hover {
+    opacity: 0.1;
+}
