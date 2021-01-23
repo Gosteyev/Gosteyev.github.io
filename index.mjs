@@ -1,4 +1,4 @@
-import { Select } from './select/select.js';
+import { Select } from './select/select.mjs';
 import './select/styles.scss';
 
 const select = new Select('select', {
