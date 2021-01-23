@@ -11,7 +11,7 @@ const select = new Select('select', {
         {id: 5, value: 'Next'}
     ]
 })
-
+console.log('SELECT', select)
 window.__select = select;
 
 const promises = [];
