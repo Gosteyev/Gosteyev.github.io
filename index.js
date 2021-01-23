@@ -12,7 +12,7 @@ const select = new Select('select', {
     ]
 })
 
-window.s = select;
+window.__select = select;
 
 const promises = [];
 for(let i = 0; i < 150; i++){
