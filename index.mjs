@@ -1,20 +1,19 @@
-import { Select } from './select/select.mjs';
-import './select/styles.scss';
+//import { Select } from './select/select.mjs';
+//import './select/styles.scss';
 
-const select = new Select('select', {
-    placeholder: "Select something",
-    data: [
-        {id: 1, value: 'React'},
-        {id: 2, value: 'Vue'},
-        {id: 3, value: 'Angular'},
-        {id: 4, value: 'Node js'},
-        {id: 5, value: 'Next'}
-    ]
-})
-console.log('SELECT', select)
-window.__select = select;
+//const select = new Select('select', {
+//    placeholder: "Select something",
+//    data: [
+//        {id: 1, value: 'React'},
+//        {id: 2, value: 'Vue'},
+//        {id: 3, value: 'Angular'},
+//        {id: 4, value: 'Node js'},
+//        {id: 5, value: 'Next'}
+//    ]
+//})
 
-const promises = [];
+
+/*const promises = [];
 for(let i = 0; i < 150; i++){
     promises.push(
         fetch("https://mike-accounts.ext.dev.bizzabo.com/api/v2/agenda/accounts/9/events/2/sessions", {
@@ -58,7 +57,7 @@ fetch("https://mike-accounts.ext.dev.bizzabo.com/api/v2/agenda/accounts/9/events
   "credentials": "include"
 });
 
-
+*/
 if(document.readyState !== 'loading'){
 	const body = document.body;
 
