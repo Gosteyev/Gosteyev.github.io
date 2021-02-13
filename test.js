@@ -56,7 +56,7 @@ const isPalindrom = (string) => {
   // console.log(stringChars);
   const stringChars = string.toLowerCase().split('').reverse().join('')
 
-  console.log(stringChars === string.toLowerCase())
+  //console.log(stringChars === string.toLowerCase())
   return stringChars === string.toLowerCase();
 }
 
@@ -78,7 +78,7 @@ function debounce(fun, ms){
   }
 }
 
-const test = () => console.log('TEST');
+//const test = () => console.log('TEST');
 
 const f = debounce(test, 2000);
 f();
