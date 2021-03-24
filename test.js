@@ -80,9 +80,9 @@ function debounce(fun, ms){
 
 //const test = () => console.log('TEST');
 
-const f = debounce(test, 2000);
-f();
-f()
+//const f = debounce(test, 2000);
+//f();
+//f()
 
 
 
