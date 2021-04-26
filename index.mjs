@@ -58,6 +58,8 @@ fetch("https://mike-accounts.ext.dev.bizzabo.com/api/v2/agenda/accounts/9/events
 });
 
 */
+
+
 if(document.readyState !== 'loading'){
 	const body = document.body;
 
@@ -95,7 +97,6 @@ if(document.readyState !== 'loading'){
     const observer = new MutationObserver(callback);
     observer.observe(body, config);
 }
-
 
 
 document.addEventListener('DOMContentLoaded', function(){
